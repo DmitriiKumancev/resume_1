@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="resume, me, about me"> 
+    <meta name="description" content="Мое резюме">
+    <title>О себе</title>
+    <style>
+        .header {
+            background-color: #eee;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .navigation {
+            background-color: #eee;
+            padding: 10px;
+            margin-bottom: 10px;            
+        }
+
+        .artic {
+            background-color: rgb(242, 192, 125);
+            padding: 10px;
+            margin-bottom: 10px
+        }
+    </style>
+</head>
+<body>
+
+    <header id="header" class="header">
+        <h1>Куманцев Дмитрий</h1>
+        <img src="imgs/I am.jpg" alt="мое фото" width="300" title="это я">
+        <p> Я <strong>разработчик</strong>,<strong>мечтатель</strong>, 
+        да и просто <strong>отличный парень</strong>.</p>
+        <p> Я люблю <em>путешествовать, играть на гитаре и 
+        смотреть на звездное небо</em>.</p>
+    </header>
+
+
+    <hr> 
+
+
+    <nav id="navigation" class="navigation">
+        <h2><strong>Мои хобби</strong></h2>
+        <ol>
+            <li>Игра на гитаре</li>
+            <li>Занятия спортом</li>
+            <li>Чтение литературы</li>
+        </ol>
+
+        <h2><strong>Опыт работы</strong></h2>
+        <table border="">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Тинькофф</td>
+                    <td>Менеджер по кредитованию</td>
+                    <td>2017-2019</td>
+                </tr>
+                <tr>
+                    <td>Билайн</td>
+                    <td>Руководитель отдела продаж</td>
+                    <td>2019-2020</td>
+                </tr>
+                <tr>
+                    <td>BackEndEa</td>
+                    <td>junior разработчик</td>
+                    <td>2020-2022</td>
+                </tr>
+            </tbody>
+        </table>
+    </nav>
+
+
+    <section>
+        <article id="information" class="artic">
+            <h2><strong>Связаться со мной</strong></h2>
+            <form>
+                <div>
+                    <label for="text">Ваше имя:</label>
+                    <input type="text" id="text" placeholder="Введите ваше имя">
+                </div>
+                <div>
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите ваш email">
+                </div>
+                <div>
+                    <label for="message">Ваше сообщение:</label>
+                    <br>
+                    <textarea name="message" id="message" placeholder="Введите сообщение..." cols="31"
+                    rows="10"></textarea>
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+
+            <h4><strong>Список социальных сетей:</strong></h4>
+
+            <a href="https://github.com" target="_blank">Github</a>
+            |
+            <a href="https://mail.google.com" target="_blank">GMail</a>
+            |
+            <a href="https://telegram.org/" target="_blank">Telegram</a>
+        </article>
+    </section>
+    
+</body>
+</html>
